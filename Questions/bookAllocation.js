@@ -56,4 +56,4 @@ function bookAllocation(arr, numberOfBooks, numberOfStudents) {
   }
   console.log(`Minimum Number of Pages= ${ans}`); //113
 }
-bookAllocation([10, 20, 30, 40], 2, 2);
+bookAllocation([12, 34, 67, 90], 2, 2);
