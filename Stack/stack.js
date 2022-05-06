@@ -86,5 +86,5 @@ function reverseStack(stack) {
     stack.addAtBottom(element);
   }
 }
-reverseStack(s);
+reverseStack(s); //50, 40, 30 ,20, 10 , 60
 s.display();
