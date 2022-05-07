@@ -36,18 +36,18 @@ var isValid = function (s) {
           isValid = false;
           break;
         }
-      } else if (s[i] == ")") {
+      } else if (s[i] == "]") {
         //check the top of stack
-        if (stack.length != 0 && stack[stack.length - 1] == "(") {
+        if (stack.length != 0 && stack[stack.length - 1] == "[") {
           stack.pop();
           continue;
         } else {
           isValid = false;
           break;
         }
-      } else if (s[i] == "[") {
+      } else if (s[i] == ")") {
         //check the top of stack
-        if (stack.length != 0 && stack[stack.length - 1] == "]") {
+        if (stack.length != 0 && stack[stack.length - 1] == "(") {
           stack.pop();
           continue;
         } else {
