@@ -1,3 +1,10 @@
+// Q) The stock span problem is a sort of financial problem involving stocks in which the daily price of a
+// stock is provided.
+// The stock's price today is defined as the max number of consecutive days (beginning today and
+// working backwards) where the stock's price was less than or equal to today's price.
+
+
+
 
 let arr=[100,80,60,70,60,75,85]
 
